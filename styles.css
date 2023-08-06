@@ -1,2 +1,21 @@
-
+.holder{
+	display:grid;
+	grid-template-rows:repeat(2,200px);
+	grid-template-columns:repeat(2,200px);
+	grid-template-areas: 
+		"a b"
+		"c d";
+}
+.item-1{
+	grid-area:a;
+}
+.item-2{
+	grid-area:b;
+}
+.item-3{
+	grid-area:c;
+}
+.item-4{
+	grid-area:d;
+}
 /* Your CSS Code here. */
