@@ -2,11 +2,11 @@
 	display:grid;
 	grid-template-rows:repeat(2,100px);
 	grid-template-columns:repeat(2,100px);
-	grid-template-areas: 
+/* 	grid-template-areas: 
 		"a b"
-		"c d";
+		"c d"; */
 }
-.item-1{
+/* .item-1{
 	grid-area:a;
 }
 .item-2{
@@ -16,6 +16,6 @@
 	grid-area:c;
 }
 .item-4{
-	grid-area:d;
+	grid-area:d; */
 }
 /* Your CSS Code here. */
